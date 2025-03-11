@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: black;
+}
+
+/* Header Section */
+header {
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+.logo img {
+    width: 125px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.tagline {
+    
+    font-size: 26px;
+    color: #555;
+    
+}
+
+/* Navigation Menu */
+nav {
+    background-color: black;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 60px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 5px 10px;
+}
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.language-prompt {
+    font-size: 18px;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Language Grid */
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.language-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.language-btn:hover {
+    background-color: black;
+}
+
+/* Next Page Button */
+.next-page {
+    background-color: #00bfff;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.next-page:hover {
+    background-color: #009acd;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    padding: 5px 10px;
+}
+footer ul li {
+    margin: 0 80px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover {
+    text-decoration: underline;
+}
